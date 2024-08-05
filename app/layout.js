@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <div className="w-5/6 max-w-4xl mx-4 my-auto">
+        <div className="w-11/12 max-w-6xl mx-auto my-auto">
           <MainHeader />
           {children}
         </div>
