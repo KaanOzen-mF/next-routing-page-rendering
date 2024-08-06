@@ -1,8 +1,8 @@
-export default function ArchieveLayout({ archieve, latest }) {
+export default function ArchiveLayout({ archive, latest }) {
   return (
     <div>
-      <h1>News Archieve</h1>
-      <section>{archieve}</section>
+      <h1>News Archive</h1>
+      <section>{archive}</section>
       <hr />
       <section>{latest}</section>
     </div>
